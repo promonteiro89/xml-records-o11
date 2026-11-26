@@ -3,6 +3,8 @@
 *.csproj text eol=lf
 *.sln text eol=lf
 *.config text eol=lf
+# Integration Studio works with CRLF: check the extension source out that way (the index stays LF)
+XmlRecords/Source/NET/** text eol=crlf
 *.xif binary
 *.dll binary
 *.oap binary

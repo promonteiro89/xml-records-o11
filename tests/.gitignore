@@ -1,0 +1,4 @@
+# test build output
+.build/
+test-output-*.txt
+source-*.log
