@@ -18,6 +18,7 @@ Dates and times are read in the formats XML providers actually send, and no long
 - An unreadable date said only "String was not recognized as a valid DateTime." The message now lists the formats that were tried (KI-17).
 - The extension's project referenced NUnit and compiled two test files, and the `.xif` didn't contain NUnit's build files. Compiling it in Integration Studio failed with "This project references NuGet package(s) that are missing". The NUnit reference and the test files are now out of the build.
 - New descriptions for the extension, its actions and parameters, and the configuration structures and their attributes. Service Studio shows them. Each one says what the item does and its default value.
+- The three actions have a new icon, based on the app icon.
 
 Behaviour changes: check these before upgrading.
 
