@@ -13,8 +13,7 @@ namespace OutSystems.NssXmlRecords {
 
 	/// <summary>
 	/// Structure <code>STTestStructure</code> that represents the Service Studio structure
-	///  <code>Test</code> <p> Description: Structure used for unit testing within the extension. Avoi
-	/// d usage.</p>
+	///  <code>Test</code> <p> Description: Used by the extension's own tests. Don't use it.</p>
 	/// </summary>
 	[Serializable()]
 	public partial struct STTestStructure: ISerializable, ITypedRecord<STTestStructure>, ISimpleRecord {
@@ -263,8 +262,8 @@ namespace OutSystems.NssXmlRecords {
 
 	/// <summary>
 	/// Structure <code>STTestHierarchicalStructure</code> that represents the Service Studio structure
-	///  <code>TestHierarchical</code> <p> Description: Structure used for unit testing within th
-	/// e extension. Avoid usage.</p>
+	///  <code>TestHierarchical</code> <p> Description: Used by the extension's own tests. Don't us
+	/// e it.</p>
 	/// </summary>
 	[Serializable()]
 	public partial struct STTestHierarchicalStructure: ISerializable, ITypedRecord<STTestHierarchicalStructure>, ISimpleRecord {
@@ -641,8 +640,7 @@ namespace OutSystems.NssXmlRecords {
 
 	/// <summary>
 	/// Structure <code>STRecordXmlConfigStructure</code> that represents the Service Studio structure
-	///  <code>RecordXmlConfig</code> <p> Description: Allows record configurations. You can configur
-	/// e attributes and the namespace of XML document.</p>
+	///  <code>RecordXmlConfig</code> <p> Description: Settings for one record type.</p>
 	/// </summary>
 	[Serializable()]
 	public partial struct STRecordXmlConfigStructure: ISerializable, ITypedRecord<STRecordXmlConfigStructure>, ISimpleRecord {
@@ -894,8 +892,7 @@ namespace OutSystems.NssXmlRecords {
 
 	/// <summary>
 	/// Structure <code>STAttributeXmlConfigStructure</code> that represents the Service Studio structure
-	///  <code>AttributeXmlConfig</code> <p> Description: Allows configurations related to XM
-	/// L attributes.</p>
+	///  <code>AttributeXmlConfig</code> <p> Description: Settings for one attribute of a record.</p>
 	/// </summary>
 	[Serializable()]
 	public partial struct STAttributeXmlConfigStructure: ISerializable, ITypedRecord<STAttributeXmlConfigStructure>, ISimpleRecord {
@@ -1192,8 +1189,8 @@ namespace OutSystems.NssXmlRecords {
 
 	/// <summary>
 	/// Structure <code>STDefaultXmlConfigStructure</code> that represents the Service Studio structure
-	///  <code>DefaultXmlConfig</code> <p> Description: Allows default XML configurations. You also add
-	/// a XML declaration, and set a data format.</p>
+	///  <code>DefaultXmlConfig</code> <p> Description: Defaults for every record. XmlConfig overrides som
+	/// e of them per record and attribute.</p>
 	/// </summary>
 	[Serializable()]
 	public partial struct STDefaultXmlConfigStructure: ISerializable, ITypedRecord<STDefaultXmlConfigStructure>, ISimpleRecord {
@@ -1615,8 +1612,7 @@ namespace OutSystems.NssXmlRecords {
 
 	/// <summary>
 	/// Structure <code>STXmlDeclarationStructure</code> that represents the Service Studio structure
-	///  <code>XmlDeclaration</code> <p> Description: Configuration of XML declaration.You can configur
-	/// e Version and Encoding values.</p>
+	///  <code>XmlDeclaration</code> <p> Description: Settings for the XML declaration written before the XML.</p>
 	/// </summary>
 	[Serializable()]
 	public partial struct STXmlDeclarationStructure: ISerializable, ITypedRecord<STXmlDeclarationStructure>, ISimpleRecord {
