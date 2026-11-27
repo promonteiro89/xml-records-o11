@@ -17,6 +17,7 @@ Dates and times are read in the formats XML providers actually send, and no long
 - A custom date format with a literal `&` or `<` wrote invalid XML. The formatted text is now escaped (KI-16).
 - An unreadable date said only "String was not recognized as a valid DateTime." The message now lists the formats that were tried (KI-17).
 - The extension's project referenced NUnit and compiled two test files, and the `.xif` didn't contain NUnit's build files. Compiling it in Integration Studio failed with "This project references NuGet package(s) that are missing". The NUnit reference and the test files are now out of the build.
+- The extension's description, shown in Service Studio's Manage Dependencies, now says what the extension does and what can be configured.
 
 Behaviour changes: check these before upgrading.
 
